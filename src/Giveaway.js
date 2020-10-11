@@ -74,6 +74,11 @@ class Giveaway extends EventEmitter {
          */
         this.hostedBy = options.hostedBy;
         /**
+         * The mention of the user who hosts this giveaway
+         * @type {?string}
+         */
+        this.serverLink = options.serverLink
+        /**
          * The giveaway messages
          * @type {GiveawayMessages}
          */
